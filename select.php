@@ -12,6 +12,8 @@ spl_autoload_register(function ($class){
     }
 });
 $start_time=microtime(true);
-$test=new Test();
-$callback=$test->select();
+/*$test=new Test();
+$callback=$test->select();*/
+$test="test,:";
+echo  str_replace([",",":"],"",$test);
 echo (microtime(true)-$start_time);
