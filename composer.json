@@ -1,0 +1,23 @@
+{
+    "name": "shangxintonghua/datause",
+    "description": "a sample use database of illuminate",
+    "type": "project",
+    "require-dev": {
+        "illuminate/database": "5.4.36"
+    },
+    "license": "MTI",
+    "authors": [
+        {
+            "name": "shangxintonghua",
+            "email": "18813750773@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
